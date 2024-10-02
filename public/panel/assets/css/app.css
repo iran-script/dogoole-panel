@@ -1,0 +1,28 @@
+.otp-form-codecheck{
+    min-height: calc(1em + 1.65rem + 2px);
+    padding: 10px 1rem 5px 1rem !important;
+    border-radius: .635rem;
+    letter-spacing: 15px;
+    text-align: center;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    font-size: 1.8rem;
+    background-color: #ffffff !important;
+    font-weight: bold;
+    border: 2px solid #e5e5e5 !important;
+}
+.filnum{
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+}
+.otp-form>input::-webkit-outer-spin-button,
+.otp-form>input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.otp-form .otp-form-codecheck:focus, .otp-form .otp-form-codecheck:active {
+    border: 2px solid #09a827;
+}
+.tr-datafull{
+    cursor: pointer;
+}
